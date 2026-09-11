@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Joy | Work</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="work-body">
+<!-- NAVBAR -->
+  <header class="navbar">
+    <a href="index.html" class="logo">Haneul Mo</a>
+
+    <nav class="main-nav">
+      <a href="index.html" class="active">Work</a>
+      <a href="me.html">Me?</a>
+      <a href="littlethings.html">Little Things</a>
+    </nav>
+
+    <div class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+ <!-- SIMPLE JOY PROJECT -->
+
+  <main class="video-project">
+
+
+    <!-- INTRO -->
+
+    <section class="video-intro">
+
+      <p class="project-category">
+        Animatic · Storyboarding
+      </p>
+
+      <h1>Simple Joy</h1>
+
+      <p class="video-description">
+        A short animatic about an overworked office cat
+        who discovers that sometimes the best way to
+        recharge isn't by doing more, but by finding
+        a little joy.
+      </p>
+
+      <p class="video-meta">
+        Storyboard · Animatic · Video Editing
+        <br>
+        De Anza College
+      </p>
+
+    </section>
+
+
+
+    <!-- VIDEO -->
+
+    <section class="video-player">
+
+      <video
+        controls
+        poster="images/simple_joy/simplejoy_cover.jpg"
+      >
+
+        <source
+          src="videos/simplejoy.mp4"
+          type="video/mp4"
+        >
+
+        Your browser does not support the video tag.
+
+      </video>
+
+    </section>
+
+
+
+    <!-- STORYBOARDS -->
+
+ <section class="storyboard-section">
+
+  <div class="storyboard-heading">
+    <p class="project-category">Process</p>
+    <h2>Storyboards</h2>
+
+    <p>
+      Selected storyboard panels used to plan the shots,
+      movement, and pacing before assembling the animatic.
+    </p>
+    <br>
+    <br>
+  </div>
+
+
+  <div class="storyboard-grid">
+
+    <!-- ALWAYS SHOWN -->
+
+    <div class="storyboard-item">
+      <img
+        src="images/simple_joy/1.jpg"
+        alt="Simple Joy storyboard page 1"
+        class="storyboard-image"
+      >
+      <p>Page 01</p>
+    </div>
+
+    <div class="storyboard-item">
+      <img
+        src="images/simple_joy/2.jpg"
+        alt="Simple Joy storyboard page 2"
+        class="storyboard-image"
+      >
+      <p>Page 02</p>
+    </div>
+
+
+    <!-- HIDDEN AT FIRST -->
+
+    <div class="storyboard-item extra-storyboard">
+      <img
+        src="images/simple_joy/3.jpg"
+        alt="Simple Joy storyboard page 3"
+        class="storyboard-image"
+      >
+      <p>Page 03</p>
+    </div>
+
+    <div class="storyboard-item extra-storyboard">
+      <img
+        src="images/simple_joy/4.jpg"
+        alt="Simple Joy storyboard page 4"
+        class="storyboard-image"
+      >
+      <p>Page 04</p>
+    </div>
+
+    <div class="storyboard-item extra-storyboard">
+      <img
+        src="images/simple_joy/5.jpg"
+        alt="Simple Joy storyboard page 5"
+        class="storyboard-image"
+      >
+      <p>Page 05</p>
+    </div>
+
+    <div class="storyboard-item extra-storyboard">
+      <img
+        src="images/simple_joy/6.jpg"
+        alt="Simple Joy storyboard page 6"
+        class="storyboard-image"
+      >
+      <p>Page 06</p>
+    </div>
+
+        <div class="storyboard-item extra-storyboard">
+      <img
+        src="images/simple_joy/7.jpg"
+        alt="Simple Joy storyboard page 7"
+        class="storyboard-image"
+      >
+      <p>Page 07</p>
+    </div>
+
+  </div>
+
+
+  <!-- VIEW MORE -->
+
+  <button
+    class="storyboard-toggle"
+    id="storyboardToggle"
+    aria-expanded="false"
+  >
+    <span>view more</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </button>
+
+
+  <!-- LIGHTBOX -->
+
+  <div class="storyboard-lightbox" id="storyboardLightbox">
+
+    <button
+      class="storyboard-lightbox-close"
+      id="storyboardLightboxClose"
+      aria-label="Close image"
+    >
+      &times;
+    </button>
+
+    <img
+      id="storyboardLightboxImage"
+      src=""
+      alt="Expanded storyboard"
+    >
+
+  </div>
+
+</section>
+
+
+
+<nav class="project-footer-nav">
+  <a href="index.html">← all work</a>
+</nav>
+
+  </main>
+
+
+
+  <footer id="contact">
+    <p>© 2026 by Haneul Mo</p>
+
+    <div class="footer-info">
+      <div>
+        <h4>Email</h4>
+        <p>littlemo.artstudio@gmail.com</p>
+      </div>
+
+      
+        <div>
+    <h4>Follow</h4>
+
+    <div class="social-icons">
+       <!-- <a href="https://github.com/YOURUSERNAME" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://linkedin.com/in/YOURUSERNAME" target="_blank">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a> -->
+
+        <a href="https://instagram.com/littlemo_art" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://tiktok.com/@littlemo_art" target="_blank">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
+</div>
+      
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
